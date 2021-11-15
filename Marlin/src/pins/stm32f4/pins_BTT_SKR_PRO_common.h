@@ -283,9 +283,9 @@
 #if TEMP_SENSOR_CHAMBER && HOTENDS < 3
   #define HEATER_CHAMBER_PIN                PB0   // Heater2
 #else
-  #define HEATER_2_PIN                      PB0   // Heater2
+  #define HEATER_2_PIN                      -1   // Heater2
 #endif
-#define HEATER_BED_PIN                      PD12  // Hotbed
+#define HEATER_BED_PIN                      PB0  // Hotbed using MOSFET
 
 //
 // Fans
