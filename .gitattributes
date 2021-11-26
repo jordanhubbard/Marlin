@@ -1,6 +1,9 @@
 # Set the default behavior, in case people don't have core.autocrlf set.
 * text=auto
 
+# Stick the version string into this file
+Marlin/Version.h ident export-subst
+
 # Files with Unix line endings
 *.c   text eol=lf
 *.cpp text eol=lf
