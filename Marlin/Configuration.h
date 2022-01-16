@@ -602,9 +602,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp 37.47
-    #define DEFAULT_Ki 4.88
-    #define DEFAULT_Kd 71.95
+    #define DEFAULT_Kp 29.02
+    #define DEFAULT_Ki 3.10
+    #define DEFAULT_Kd 67.91
   #endif
 #endif // PIDTEMP
 
@@ -1869,13 +1869,13 @@
 // Preheat Constants - Up to 5 are supported without changes
 //
 #define PREHEAT_1_LABEL       "PLA+"
-#define PREHEAT_1_TEMP_HOTEND 215
+#define PREHEAT_1_TEMP_HOTEND 205
 #define PREHEAT_1_TEMP_BED     64
 #define PREHEAT_1_TEMP_CHAMBER 35
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_2_LABEL       "PETG"
-#define PREHEAT_2_TEMP_HOTEND 235
+#define PREHEAT_2_TEMP_HOTEND 240
 #define PREHEAT_2_TEMP_BED    84
 #define PREHEAT_2_TEMP_CHAMBER 35
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
