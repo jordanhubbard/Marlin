@@ -69,11 +69,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-<<<<<<< HEAD
 #define STRING_CONFIG_H_AUTHOR "(Dude, SKR-2)" // Who made the changes.
-=======
-#define STRING_CONFIG_H_AUTHOR "(Dude, jkh 5+ config)" // Who made the changes.
->>>>>>> eb99d3d0a5aef1b771d8782b73fc17223c46505f
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -106,11 +102,7 @@
  *
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-<<<<<<< HEAD
 #define SERIAL_PORT 1
-=======
-#define SERIAL_PORT -1
->>>>>>> eb99d3d0a5aef1b771d8782b73fc17223c46505f
 
 /**
  * Serial Port Baud Rate
@@ -131,13 +123,8 @@
  * Currently Ethernet (-2) is only supported on Teensy 4.1 boards.
  * :[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-<<<<<<< HEAD
 #define SERIAL_PORT_2 -1
 //#define BAUDRATE_2 250000   // Enable to override BAUDRATE
-=======
-#define SERIAL_PORT_2 1
-//#define BAUDRATE_2 115200   // Enable to override BAUDRATE
->>>>>>> eb99d3d0a5aef1b771d8782b73fc17223c46505f
 
 /**
  * Select a third serial port on the board to use for communication with the host.
@@ -152,11 +139,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-<<<<<<< HEAD
   #define MOTHERBOARD BOARD_BTT_SKR_V2_0_REV_B
-=======
-  #define MOTHERBOARD BOARD_BTT_SKR_PRO_V1_2
->>>>>>> eb99d3d0a5aef1b771d8782b73fc17223c46505f
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
@@ -944,11 +927,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-<<<<<<< HEAD
 #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 96 }
-=======
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {320, 320, 3200, 550 }
->>>>>>> eb99d3d0a5aef1b771d8782b73fc17223c46505f
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -983,11 +962,8 @@
  *   M204 R    Retract Acceleration
  *   M204 T    Travel Acceleration
  */
-<<<<<<< HEAD
-#define DEFAULT_ACCELERATION          1000    // X, Y, Z and E acceleration for printing moves
-=======
+
 #define DEFAULT_ACCELERATION           200    // X, Y, Z and E acceleration for printing moves
->>>>>>> eb99d3d0a5aef1b771d8782b73fc17223c46505f
 #define DEFAULT_RETRACT_ACCELERATION  1000    // E acceleration for retracts
 #define DEFAULT_TRAVEL_ACCELERATION   1000    // X, Y, Z acceleration for travel (non printing) moves
 
@@ -1204,10 +1180,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-<<<<<<< HEAD
-=======
 // Note on Creality Ender-5 Plus: Z offset must be adjusted (M851) every time once the probe has been loosen/unmounted.
->>>>>>> eb99d3d0a5aef1b771d8782b73fc17223c46505f
 #define NOZZLE_TO_PROBE_OFFSET { -44, -5, -3.0 }
 
 // Most probes should stay away from the edges of the bed, but
@@ -1911,10 +1884,6 @@
 #define PREHEAT_3_TEMP_CHAMBER 35
 #define PREHEAT_3_FAN_SPEED     0 // Value from 0 to 255
 
-<<<<<<< HEAD
-=======
-
->>>>>>> eb99d3d0a5aef1b771d8782b73fc17223c46505f
 /**
  * Nozzle Park
  *

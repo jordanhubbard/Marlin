@@ -1246,12 +1246,9 @@
   // BACK menu items keep the highlight at the top
   //#define TURBO_BACK_MENU_ITEM
 
-<<<<<<< HEAD
-=======
   // Add a mute option to the LCD menu
   #define SOUND_MENU_ITEM
 
->>>>>>> eb99d3d0a5aef1b771d8782b73fc17223c46505f
   /**
    * LED Control Menu
    * Add LED Control to the LCD menu
