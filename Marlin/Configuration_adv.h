@@ -586,7 +586,7 @@
  */
 
 // Define this if automatic fan control is desired
-// #define AUTO_FAN_CONTROL_ENDER5
+#define AUTO_FAN_CONTROL_ENDER5
 
 #ifdef AUTO_FAN_CONTROL_ENDER5
 #define FAN_PIN -1
