@@ -584,10 +584,21 @@
  * Multiple extruders can be assigned to the same pin in which case
  * the fan will turn on when any selected extruder is above the threshold.
  */
-#define E0_AUTO_FAN_PIN PB7
+
+// Define this if automatic fan control is desired
+// #define AUTO_FAN_CONTROL_ENDER5
+
+#ifdef AUTO_FAN_CONTROL_ENDER5
 #define FAN_PIN -1
+#define E0_AUTO_FAN_PIN PB7
 #define E1_AUTO_FAN_PIN PB6
+#define E2_AUTO_FAN_PIN PB5
+#else
+#define E0_AUTO_FAN_PIN -1
+#define E1_AUTO_FAN_PIN -1
 #define E2_AUTO_FAN_PIN -1
+#endif
+
 #define E3_AUTO_FAN_PIN -1
 #define E4_AUTO_FAN_PIN -1
 #define E5_AUTO_FAN_PIN -1
