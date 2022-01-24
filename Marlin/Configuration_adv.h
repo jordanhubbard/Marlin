@@ -591,7 +591,7 @@
 #ifdef AUTO_FAN_CONTROL_ENDER5
 #define FAN_PIN -1
 #define E0_AUTO_FAN_PIN PB7
-#define E1_AUTO_FAN_PIN PB6
+#define E1_AUTO_FAN_PIN PB5
 #define E2_AUTO_FAN_PIN -1
 #else
 #define E0_AUTO_FAN_PIN -1
